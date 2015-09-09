@@ -1,0 +1,26 @@
+{
+  "name": "vanilla_http_server",
+  "version": "0.1.0",
+  "description": "a simple http server",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalleng/vanilla_http_server.git"
+  },
+  "author": "jallengerber@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jalleng/vanilla_http_server/issues"
+  },
+  "homepage": "https://github.com/jalleng/vanilla_http_server#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "chai-http": "^1.0.0",
+    "http": "0.0.0",
+    "mocha": "^2.3.2"
+  }
+}
