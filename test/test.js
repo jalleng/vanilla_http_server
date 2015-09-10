@@ -27,7 +27,7 @@ describe('server test', function() {
       });
   });
 
-  it('tell the server time ', function(done) {
+  it('should tell the server time ', function(done) {
     chai.request('localhost:3000')
       .get('/time')
       .send()

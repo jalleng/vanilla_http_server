@@ -1,7 +1,7 @@
 'use strict';
 
 var http = require('http');
-
+var port = 3000;
 var server = http.createServer(function(req,res) {
   var path = req.url.split('/');
   if (path[1] ==='greet') {
@@ -40,8 +40,8 @@ var server = http.createServer(function(req,res) {
   }
 });
 
-  server.listen(3000, function() {
-  console.log("server Listening on port 3000");
+  server.listen(port, function() {
+  console.log("server Listening on port " + port);
 });
 
 
